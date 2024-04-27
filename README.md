@@ -3,3 +3,6 @@
 
 ### CodeClimat Maintainability
 [![Maintainability](https://api.codeclimate.com/v1/badges/a7f2cfce9651fdafcb39/maintainability)](https://codeclimate.com/github/rocket-duck/java-project-61/maintainability)
+
+### Brain even game
+[![asciicast](https://asciinema.org/a/BBsnxQPwzDGBriGDvXFuWFXh0.svg)](https://asciinema.org/a/BBsnxQPwzDGBriGDvXFuWFXh0)
