@@ -31,7 +31,7 @@ public class Engine {
         System.out.println("Congratulations, " + name + "!");
     }
 
-    public static String getName() {
+    private static String getName() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("May I have your name? ");
         String userName = scanner.next();
