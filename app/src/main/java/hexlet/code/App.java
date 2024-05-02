@@ -46,6 +46,8 @@ public class App {
             case ("6"):
                 Engine.makeGame(new Prime());
                 break;
+            case ("0"):
+                System.exit(0);
             default:
                 break;
         }
