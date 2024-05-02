@@ -23,25 +23,25 @@ public class App {
         System.out.print(menu);
 
         Scanner scanner = new Scanner(System.in);
-        String game = scanner.next();
+        int game = scanner.nextInt();
         switch (game) {
-            case ("1"):
+            case (1):
                 String greet = "Welcome to the Brain Games!";
                 System.out.println("\n" + greet);
                 break;
-            case ("2"):
+            case (2):
                 Engine.makeGame(new Even());
                 break;
-            case ("3"):
+            case (3):
                 Engine.makeGame(new Calc());
                 break;
-            case ("4"):
+            case (4):
                 Engine.makeGame(new GCD());
                 break;
-            case ("5"):
+            case (5):
                 Engine.makeGame(new Progression());
                 break;
-            case ("6"):
+            case (6):
                 Engine.makeGame(new Prime());
                 break;
             default:
