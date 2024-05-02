@@ -31,16 +31,21 @@ public class App {
                 break;
             case ("2"):
                 Engine.makeGame(new Even());
+                break;
             case ("3"):
                 Engine.makeGame(new Calc());
+                break;
             case ("4"):
                 Engine.makeGame(new GCD());
+                break;
             case ("5"):
                 Engine.makeGame(new Progression());
+                break;
             case ("6"):
                 Engine.makeGame(new Prime());
+                break;
             default:
-                System.exit(0);
+                break;
         }
     }
 }
