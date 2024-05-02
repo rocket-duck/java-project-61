@@ -1,10 +1,12 @@
 package hexlet.code.games;
 
 public class Prime implements GameData {
+    @Override
     public String getRules() {
         return "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
     }
 
+    @Override
     public String[] getQuestionAndAnswer() {
         int question = 1 + (int) (Math.random() * 100);
         String answer = isPrime(question) ? "yes" : "no";

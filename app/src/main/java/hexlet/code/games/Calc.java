@@ -1,10 +1,12 @@
 package hexlet.code.games;
 
 public class Calc implements GameData {
+    @Override
     public String getRules() {
         return "What is the result of the expression?";
     }
 
+    @Override
     public String[] getQuestionAndAnswer() {
         int num1 = 1 + (int) (Math.random() * 10);
         int num2 = 1 + (int) (Math.random() * 10);
