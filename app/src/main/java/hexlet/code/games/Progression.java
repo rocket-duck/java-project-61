@@ -13,7 +13,7 @@ public class Progression implements GameData {
         String answer = progression[questionPosition];
 
         progression[questionPosition] = "..";
-        String question = String.join(", ", progression);
+        String question = String.join(" ", progression);
 
         return new String[]{question, answer};
     }
