@@ -16,18 +16,20 @@ public class Calc implements GameData {
         int answer = 0;
 
         switch (symbols[questionSymbol]) {
-            case ("+") -> {
+            case ("+"):
                 question = num1 + " " + symbols[questionSymbol] + " " + num2;
                 answer = num1 + num2;
-            }
-            case ("-") -> {
+                break;
+            case ("-"):
                 question = num1 + " " + symbols[questionSymbol] + " " + num2;
                 answer = num1 - num2;
-            }
-            case ("*") -> {
+                break;
+            case ("*"):
                 question = num1 + " " + symbols[questionSymbol] + " " + num2;
                 answer = num1 * num2;
-            }
+                break;
+            default:
+                break;
         }
 
         return new String[]{question, String.valueOf(answer)};
