@@ -35,7 +35,7 @@ public class Engine {
         System.out.println("Congratulations, " + name + "!");
     }
 
-    private static String getName() {
+    public static String getName() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nWelcome to the Brain Games!\nMay I have your name? ");
         String userName = scanner.next();

@@ -25,8 +25,7 @@ public class App {
         String game = scanner.next();
         switch (game) {
             case ("1"):
-                // String greet = "Welcome to the Brain Games!";
-                // System.out.print("\n" + greet);
+                Engine.getName();
                 break;
             case ("2"):
                 Engine.makeGame(new Even());
