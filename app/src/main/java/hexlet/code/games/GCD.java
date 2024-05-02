@@ -2,7 +2,7 @@ package hexlet.code.games;
 
 public class GCD implements GameData {
     public String getRules() {
-        return "Answer 'yes' if the number is even, otherwise answer 'no'.";
+        return "Find the greatest common divisor of given numbers.";
     }
 
     public String[] getQuestionAndAnswer() {
