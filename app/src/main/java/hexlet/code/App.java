@@ -11,37 +11,36 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         String menu = """
-                Please enter the game number and press Enter.
-                1 - Greet
-                2 - Even
-                3 - Calc
-                4 - GCD
-                5 - Progression
-                6 - Prime
-                0 - Exit
-                Your choice:\s""";
-        System.out.print(menu);
-
+            Please enter the game number and press Enter.
+            1 - Greet
+            2 - Even
+            3 - Calc
+            4 - GCD
+            5 - Progression
+            6 - Prime
+            0 - Exit""";
+        System.out.println(menu);
+        System.out.print("Your choice: ");
         Scanner scanner = new Scanner(System.in);
-        int game = scanner.nextInt();
+        String game = scanner.next();
         switch (game) {
-            case (1):
+            case ("1"):
                 String greet = "Welcome to the Brain Games!";
-                System.out.println("\n" + greet);
+                System.out.print("\n" + greet);
                 break;
-            case (2):
+            case ("2"):
                 Engine.makeGame(new Even());
                 break;
-            case (3):
+            case ("3"):
                 Engine.makeGame(new Calc());
                 break;
-            case (4):
+            case ("4"):
                 Engine.makeGame(new GCD());
                 break;
-            case (5):
+            case ("5"):
                 Engine.makeGame(new Progression());
                 break;
-            case (6):
+            case ("6"):
                 Engine.makeGame(new Prime());
                 break;
             default:
