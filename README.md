@@ -15,3 +15,6 @@
 
 ### Brain progression game
 [![asciicast](https://asciinema.org/a/QZaaHovhqrgPJJzWHRY12dYRM.svg)](https://asciinema.org/a/QZaaHovhqrgPJJzWHRY12dYRM)
+
+### Brain even game
+[![asciicast](https://asciinema.org/a/WIpjbswDHmFWuYetb9ga8PBR7.svg)](https://asciinema.org/a/WIpjbswDHmFWuYetb9ga8PBR7)
