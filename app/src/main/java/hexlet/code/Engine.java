@@ -25,7 +25,8 @@ public class Engine {
                         + " is wrong answer ;(. Correct answer was "
                         + answer
                         + ".\nLet's try again, "
-                        + name);
+                        + name
+                        + "!");
                 return;
             }
 
