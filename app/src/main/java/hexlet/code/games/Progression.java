@@ -1,6 +1,6 @@
 package hexlet.code.games;
 
-public class Progression implements GameData {
+public final class Progression implements GameData {
     @Override
     public String getRules() {
         return "What number is missing in the progression?";

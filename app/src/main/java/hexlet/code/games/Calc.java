@@ -1,6 +1,6 @@
 package hexlet.code.games;
 
-public class Calc implements GameData {
+public final class Calc implements GameData {
     @Override
     public String getRules() {
         return "What is the result of the expression?";
@@ -8,11 +8,13 @@ public class Calc implements GameData {
 
     @Override
     public String[] getQuestionAndAnswer() {
-        int num1 = 1 + (int) (Math.random() * 10);
-        int num2 = 1 + (int) (Math.random() * 10);
+        final int maxNumber = 10;
+        int num1 = 1 + (int) (Math.random() * maxNumber);
+        int num2 = 1 + (int) (Math.random() * maxNumber);
 
         String[] symbols = {"+", "-", "*"};
-        int questionSymbol = (int) (Math.random() * 3);
+
+        int questionSymbol = (int) (Math.random() * symbols.length);
 
         String question = "";
         int answer = 0;
