@@ -8,7 +8,7 @@ public final class Prime implements GameData {
 
     @Override
     public String[] getQuestionAndAnswer() {
-        int maxNumber = 100;
+        final int maxNumber = 100;
         int question = 1 + (int) (Math.random() * maxNumber);
         String answer = isPrime(question) ? "yes" : "no";
 
